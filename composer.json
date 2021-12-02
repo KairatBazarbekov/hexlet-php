@@ -1,16 +1,21 @@
 {
-    "name": "hex/exampl",
-    "description": "exampl package",
-    "authors": [
-        {
-            "name": "Kairat Bazarbekov",
-            "email": "bazarbekovkairat@gmail.com"
-        }
-    ],
-    "require": {
-        "tightenco/collect": "^8.68"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.5"
+  "name": "hex/exampl",
+  "description": "exampl package",
+  "authors": [
+    {
+      "name": "Kairat Bazarbekov",
+      "email": "bazarbekovkairat@gmail.com"
     }
+  ],
+  "autoload": {
+    "files": [
+      "src/Runner.php"
+    ]
+  },
+  "require": {
+    "tightenco/collect": "^8.68"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  }
 }
