@@ -9,7 +9,8 @@
   ],
   "autoload": {
     "files": [
-      "src/Runner.php"
+      "src/Runner.php",
+      "src/Lists.php"
     ]
   },
   "require": {
